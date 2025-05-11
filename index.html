@@ -1,17 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Name - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashim Thapa - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Hello, I'm Your Name!</h1>
-  <p>Welcome to my portfolio. I am an aspiring developer with skills in [Your Skills]</p>
-  <h2>Projects</h2>
-  <ul>
-    <li><strong>Project 1:</strong> Description of your first project</li>
-    <li><strong>Project 2:</strong> Description of your second project</li>
-  </ul>
-  <h2>Contact</h2>
-  <p>Email: yourname@example.com</p>
+    <header>
+        <h1 id="typing"></h1>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle">Toggle Theme</button>
+        </nav>
+    </header>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <button onclick="toggleResume()">Show/Hide Resume</button>
+        <div id="resume-content" class="hidden">
+            <p>Download my resume: <a href="assets/resume.pdf" target="_blank">Resume PDF</a></p>
+            <ul>
+                <li><strong>Correctional Officer</strong> at XYZ Facility</li>
+                <li><strong>Software Developer</strong> - Entry level projects</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="assets/images/project1.jpg" alt="Project 1">
+            <h3>Project 1 Title</h3>
+            <p>Short description of project 1...</p>
+        </div>
+        <div class="project-card">
+            <img src="assets/images/project2.jpg" alt="Project 2">
+            <h3>Project 2 Title</h3>
+            <p>Short description of project 2...</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Ashim Thapa. Passionate about software development, correctional services, and technology.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: ashimt004@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
+    </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
