@@ -1,11 +1,10 @@
-// Typing Effect
-const typing = document.getElementById('typing');
-const text = "Hello, I'm Ashim Thapa";
-let index = 0;
-
 window.onload = function() {
     window.scrollTo(0, 0);
 };
+
+const typing = document.getElementById('typing');
+const text = "Hello, I'm Ashim Thapa";
+let index = 0;
 
 function type() {
     typing.textContent = text.slice(0, index++);
