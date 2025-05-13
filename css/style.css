@@ -82,9 +82,14 @@ section {
 
 .project-card img {
     width: 100%;
+    max-width: 300px;  
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;  
     border-radius: 15px;
-    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 /* Resume Content Toggle */
 #resume-content.hidden {
