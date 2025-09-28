@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>notreallyashim — Gallery</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <div class="header" role="banner" aria-label="Site header">
+    <div class="nav-section">
+      <div class="logo-container" aria-label="Logo">
+        <div class="logo-circles">
+          <div class="circle circle-1"></div>
+          <div class="circle circle-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="values-section" aria-label="Menu">
+      <h3>+Menu</h3>
+      <ul>
+        <li><a href="#">Clarity</a></li>
+        <li><a href="#">Simplicity</a></li>
+        <li><a href="#">Creativity</a></li>
+        <li><a href="#">Authenticity</a></li>
+        <li><a href="#">Connect</a></li>
+      </ul>
+    </div>
+
+    <div class="location-section" aria-label="Location">
+      <h3>+Location</h3>
+      <p>closer to u</p>
+      <p>ON</p>
+      <p>Canada</p>
+    </div>
+
+    <div class="contact-section" aria-label="Get in touch">
+      <h3>+Get In Touch</h3>
+      <p>(647) 228-0967</p>
+      <p><a href="mailto:tqat1234@gmail.com">tqat1234@gmail.com</a></p>
+    </div>
+
+    <div class="social-section" aria-label="Social links">
+      <h3>+Social</h3>
+      <ul>
+        <li><a href="https://instagram.com/notreallyashim" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://facebook.com/Ashim_Thapa" target="_blank" rel="noopener">X / Facebook</a></li>
+        <li><a href="https://linkedin.com/in/filipzrnzevic" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer" role="contentinfo" aria-label="Site footer">
+    <div class="coordinates-section">
+      <p>34.0522° N, 118.2437° W</p>
+    </div>
+    <div class="links-section">
+      <p>Press <span class="key-hint" aria-label="Keyboard hint">H</span> to toggle panel</p>
+    </div>
+    <div class="info-section">
+      <p>Est. 2025 • Summer Days</p>
+    </div>
+  </div>
+
+  <!-- Canvas & overlay -->
+  <div class="container" aria-live="polite">
+    <div class="canvas" id="canvas"></div>
+    <div class="overlay" id="overlay" aria-hidden="true"></div>
+  </div>
+
+  <!-- Animated project title -->
+  <div class="project-title" aria-live="polite">
+    <p></p>
+  </div>
+
+  <!-- Page vignette effects -->
+  <div class="page-vignette-container" aria-hidden="true">
+    <div class="page-vignette"></div>
+    <div class="page-vignette-strong"></div>
+    <div class="page-vignette-extreme"></div>
+  </div>
+
+  <!-- Vendor scripts (globals) -->
+  <script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://unpkg.com/gsap@3.12.5/dist/CustomEase.min.js" defer></script>
+  <script src="https://unpkg.com/split-type@0.3.3/dist/index.min.js" defer></script>
+
+  <!-- Your app (module) -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
